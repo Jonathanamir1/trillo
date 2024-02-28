@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        
-        <title>trillo &mdash; Your all-in-one booking app</title>
-    </head>
-    <body>
-        
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importing Open Sans font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+
+    <!-- Linking to your CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Adding a favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="blur-overlay"></div>
+    <!-- Container to hold all content -->
+    <div class="container">
+      <!-- Header section -->
+      <header class="header">
+        <img src="img/logo.png" alt="trillo logo" class="logo" />
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels"
+          />
+          <button class="search__button">
+            <svg class="icon icon-magnifying-glass">
+              <use xlink:href="#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+      </header>
+
+      <!-- Content section -->
+      <div class="content">
+        <!-- Sidebar for navigation -->
+        <nav class="sidebar">Sidebar</nav>
+
+        <!-- Main section for hotel view -->
+        <main class="hotel-view">Hotel View</main>
+      </div>
+    </div>
+  </body>
 </html>
