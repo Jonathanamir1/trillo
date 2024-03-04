@@ -5,11 +5,16 @@
   box-shadow: var(--shadow-dark);
   min-height: 90vh;
   border-radius: 1rem;
+  overflow: hidden;
 }
 .header {
-  height: 7rem;
-  background-color: var(--color-grey-light-1);
+  font-size: 1.5rem;
+  height: 7%;
+  // background-color: var(--color-grey-light-1);
   border-bottom: var(--color-grey-light-3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {

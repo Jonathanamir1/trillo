@@ -19,12 +19,11 @@
     <title>trillo &mdash; Your all-in-one booking app</title>
   </head>
   <body>
-    <div class="blur-overlay"></div>
     <!-- Container to hold all content -->
     <div class="container">
       <!-- Header section -->
       <header class="header">
-        <img src="img/logo.png" alt="trillo logo" class="logo" />
+        <img src="img/logo.png" alt="Trillo logo" class="logo" />
 
         <form action="#" class="search">
           <input
@@ -33,11 +32,34 @@
             placeholder="Search hotels"
           />
           <button class="search__button">
-            <svg class="icon icon-magnifying-glass">
-              <use xlink:href="#icon-magnifying-glass"></use>
+            <svg class="search__icon icon-magnifying-glass">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
             </svg>
           </button>
         </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon icon-bookmark">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon icon-bookmark">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+
+          <img
+            src="img/user.jpg"
+            alt="User photo"
+            class="user-nav__user-photo"
+          />
+          <span class="user-nav__user-name">Jonas</span>
+        </nav>
       </header>
 
       <!-- Content section -->
