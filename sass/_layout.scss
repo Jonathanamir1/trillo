@@ -13,8 +13,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // padding: 1rem 1rem;
-  // margin-bottom: 2rem;
 }
 
 .content {
@@ -22,7 +20,6 @@
 }
 
 .sidebar {
-  // background-color: var(--color-grey-dark-1);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -36,7 +33,8 @@
   .detail {
     display: flex;
     margin: var(--margin);
-    padding-bottom: 6rem;
+    margin-bottom: 0;
+    padding-bottom: 5rem;
     border-bottom: var(--line);
   }
 
@@ -52,8 +50,9 @@
   }
 
   .user-reviews {
-    background-color: yellowgreen;
     flex: 1;
-    border-radius: 1rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 }
