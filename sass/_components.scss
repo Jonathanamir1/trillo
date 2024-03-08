@@ -589,6 +589,11 @@
     &:not(:last-child) {
       margin-right: -1.5rem;
     }
+
+    @media screen and (max-width: $bp-phone) {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
   }
 }
 
@@ -725,6 +730,7 @@
 
   @media screen and (max-width: $bp-phone) {
     font-size: 1.2rem;
+    margin-bottom: 2rem;
   }
 
   & > * {
