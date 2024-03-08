@@ -360,8 +360,8 @@
   margin-top: 1rem;
 
   @media screen and (max-width: $bp-phone) {
-    margin: 0;
-    margin-left: 1rem;
+    margin: 0 1rem;
+    max-width: 100%;
   }
 
   &__heading {
@@ -375,6 +375,8 @@
 
     @media screen and (max-width: $bp-phone) {
       font-size: 1.2rem;
+      padding: 1rem 0;
+      padding-right: 1rem;
     }
   }
 
@@ -391,8 +393,8 @@
     fill: var(--color-primary);
 
     @media screen and (max-width: $bp-phone) {
-      height: 2.3rem;
-      width: 2.3rem;
+      height: 1.5rem;
+      width: 1.5rem;
       justify-content: center;
     }
   }
@@ -400,6 +402,7 @@
   &__icon-location {
     // margin-right: 0.5rem;
     align-self: center;
+    margin: 0;
 
     @media screen and (max-width: $bp-phone) {
       margin: 0 1rem;

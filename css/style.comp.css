@@ -312,8 +312,8 @@ body {
   margin-top: 1rem; }
   @media screen and (max-width: 27em) {
     .overview {
-      margin: 0;
-      margin-left: 1rem; } }
+      margin: 0 1rem;
+      max-width: 100%; } }
   .overview__heading {
     font-size: 2.85rem;
     font-weight: 300;
@@ -323,7 +323,9 @@ body {
     padding-right: 3rem; }
     @media screen and (max-width: 27em) {
       .overview__heading {
-        font-size: 1.2rem; } }
+        font-size: 1.2rem;
+        padding: 1rem 0;
+        padding-right: 1rem; } }
   .overview__stars {
     fill: var(--color-primary);
     margin-right: auto;
@@ -334,11 +336,12 @@ body {
     fill: var(--color-primary); }
     @media screen and (max-width: 27em) {
       .overview__icon-star, .overview__icon-location {
-        height: 2.3rem;
-        width: 2.3rem;
+        height: 1.5rem;
+        width: 1.5rem;
         justify-content: center; } }
   .overview__icon-location {
-    align-self: center; }
+    align-self: center;
+    margin: 0; }
     @media screen and (max-width: 27em) {
       .overview__icon-location {
         margin: 0 1rem; } }
